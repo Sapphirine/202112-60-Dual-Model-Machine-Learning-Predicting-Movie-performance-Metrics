@@ -114,7 +114,7 @@ rank_array=applyranking(ranking_df,commArray)
 
 df['yt comments'] = commArray
 df['word rating'] = rank_array
-df.to_csv('bad_word_rating.csv', index=False)
+df.to_csv('good_word_rating.csv', index=False)
 
 df=pd.read_csv('Bad_movies2022_codes.csv',encoding= 'unicode_escape')
 
@@ -126,7 +126,7 @@ rank_array=applyranking(ranking_df,commArray)
 
 df['yt comments'] = commArray
 df['word rating'] = rank_array
-df.to_csv('good_word_rating.csv', index=False)
+df.to_csv('bad_word_rating.csv', index=False)
 
 df=pd.read_csv('movies2020_codes.csv',encoding= 'unicode_escape')
 
